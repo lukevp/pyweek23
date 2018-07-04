@@ -3,7 +3,7 @@ from pygame.locals import *
 #display settings
 width = 1920
 height = 1080
-screen_setting = RESIZABLE
+screen_setting = FULLSCREEN | HWSURFACE | DOUBLEBUF
 
 # Keyboard settings
 quitkeys = [K_ESCAPE]
